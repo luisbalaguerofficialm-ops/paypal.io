@@ -99,15 +99,10 @@ export default function AdminDashboard() {
             <div className="flex items-center gap-3">
               <div className="text-right">
                 <p className="text-xs font-bold text-slate-900 leading-none">
-                  Admin Sovereign
+                  Admin Dashbord
                 </p>
                 <p className="text-[10px] text-slate-500">Root Access</p>
               </div>
-              <img
-                alt="Administrator Profile"
-                className="w-9 h-9 rounded-full bg-slate-200 border border-slate-300"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuCNGSsY5XjqQlETeyDCMIDKyEM4yRY7FOPZZdFLEETRo9R59NuZ6Z0COp3dkbNDqDTR7iWwjDX_e21OTBONM1QY20ULiE8YEZGjnz0ZxWQ4G4nFjA4iaqPo140elhH3EYzM5Q72cuO96etQrNluUzL7XA15mmMvSzvAPAjk2ZgoRlPcNMDUU3SdIh-4ZW80u3FfCQ-hyk0mkCBT4cMwD2oCdidTFpTl3n0lUNajXcO4WaYPftLoL3Av5z5d5ym8TZluQ5PfOhEk9nQ"
-              />
             </div>
           </div>
         </header>

@@ -69,7 +69,7 @@ export default function Login() {
             disabled={loading}
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            placeholder="Email or mobile number"
+            placeholder="Email"
             className="w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 outline-none disabled:bg-gray-50"
           />
           <div className="relative">
