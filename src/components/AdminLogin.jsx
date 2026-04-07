@@ -151,34 +151,6 @@ export default function AdminLogin() {
           </div>
         </section>
       </main>
-      <footer className="w-full py-8 mt-auto bg-[#e2fffe] dark:bg-[#001736]">
-        <div className="border-t border-[#c4c6d0]/15 mb-6"></div>
-        <div className="flex flex-col md:flex-row justify-between items-center px-8 gap-4 max-w-7xl mx-auto">
-          <p className="font-['Manrope'] text-xs uppercase tracking-[0.05rem] font-medium text-[#002b5b] dark:text-[#e2fffe] opacity-80">
-            © 2026 PalPay. Kinetic Precision Logistics.
-          </p>
-          <div className="flex gap-8">
-            <a
-              className="font-['Manrope'] text-xs uppercase tracking-[0.05rem] font-medium text-[#002b5b]/70 dark:text-[#c6e9e9]/70 hover:text-[#006d36] dark:hover:text-[#83fba5] transition-colors"
-              href="#"
-            >
-              Privacy Policy
-            </a>
-            <a
-              className="font-['Manrope'] text-xs uppercase tracking-[0.05rem] font-medium text-[#002b5b]/70 dark:text-[#c6e9e9]/70 hover:text-[#006d36] dark:hover:text-[#83fba5] transition-colors"
-              href="#"
-            >
-              Terms of Service
-            </a>
-            <a
-              className="font-['Manrope'] text-xs uppercase tracking-[0.05rem] font-medium text-[#002b5b]/70 dark:text-[#c6e9e9]/70 hover:text-[#006d36] dark:hover:text-[#83fba5] transition-colors"
-              href="#"
-            >
-              Help Center
-            </a>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
