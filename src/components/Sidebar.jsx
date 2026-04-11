@@ -23,11 +23,11 @@ export default function Sidebar({ mobileOpen, setMobileOpen }) {
       section: "MAIN",
       items: [
         { icon: Home, label: "Dashboard", path: "" },
-        // {
-        //   icon: SendHorizonal,
-        //   label: "Get Login details",
-        //   path: "/get-login-details",
-        // },
+        {
+          icon: SendHorizonal,
+          label: "Send Message ",
+          path: "/admin/message",
+        },
       ],
     },
   ];

@@ -26,10 +26,9 @@ export default function AdminDashboard() {
 
   const fetchUsers = async () => {
     try {
-      const res = await axios.get(
-        "https://paypalcom-nl.onrender.com/api/admin/users",
-        { headers: { Authorization: `Bearer ${token}` } },
-      );
+      const res = await axios.get("", {
+        headers: { Authorization: `Bearer ${token}` },
+      });
       // Ensure we handle the data structure correctly based on your API response
       setUsers(res.data?.data || res.data?.users || []);
     } catch (err) {
@@ -38,6 +37,8 @@ export default function AdminDashboard() {
       setLoading(false);
     }
   };
+
+  // https://paypalcom-nl.onrender.com/api/admin/users
 
   useEffect(() => {
     if (!token) {

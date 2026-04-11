@@ -8,23 +8,32 @@ import AdminDashboard from "./components/AdminDashboard";
 import AdminLogin from "./components/AdminLogin";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Message from "./pages/Message";
+import Notification from "./pages/Notification";
 
 export default function App() {
   return (
     <BrowserRouter>
       <ToastContainer position="top-right" autoClose={3000} />
       <Routes>
-        {/* User Routes */}
+        {/* User/Client Routes */}
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Login />} />
         </Route>
 
-        {/* Admin Routes */}
+        {/* Admin Section (Protected/Dashboard Area) */}
         <Route path="admin" element={<AdminLayout />}>
+          {/* URL: /admin */}
           <Route index element={<AdminDashboard />} />
+
+          {/* URL: /admin/message */}
+          <Route path="message" element={<Message />} />
+
+          {/* URL: /admin/notification */}
+          <Route path="notification" element={<Notification />} />
         </Route>
 
-        {/* Admin Login */}
+        {/* Admin Authentication */}
         <Route path="adminLogin" element={<AdminLogin />} />
       </Routes>
     </BrowserRouter>
