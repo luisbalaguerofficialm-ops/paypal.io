@@ -18,7 +18,7 @@ export default function AdminLogin() {
 
     try {
       const res = await axios.post(
-        // "https://paypalcom-nl.onrender.com/api/admin/login",
+        "https://paypalcom-nl.onrender.com/api/admin/login",
         { email, password },
       );
 
